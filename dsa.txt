@@ -1,0 +1,35 @@
+Data Access And Licensing
+
+The World Bank Group makes data publicly available according to open data standards and licenses datasets under the Creative Commons Attribution 4.0 International license (CC-BY 4.0). Many datasets are available under other licenses. They are labeled accordingly, and when they are accessed by users, users agree to comply with all of the terms of the respective licenses, as explained below.
+
+Creative Commons Attribution 4.0 (CC-BY 4.0)
+The Creative Commons Attribution 4.0 International license allows users to copy, modify and distribute data in any format for any purpose, including commercial use. Users are only obligated to give appropriate credit (attribution) and indicate if they have made any changes, including translations. CC-BY 4.0, with the additional terms below, is the default license for all Datasets produced by the World Bank itself and distributed as open data.
+
+All users of these Datasets under the CC-BY 4.0 License also agree to the following mandatory terms: Any and all disputes arising under this License that cannot be settled amicably shall be resolved in accordance with the following procedure:
+
+Pursuant to a notice of mediation communicated by reasonable means by either You or the Licensor to the other, the dispute shall be submitted to non-binding mediation conducted in accordance with rules designated by the Licensor in the copyright notice published with the Work, or if none then in accordance with those communicated in the notice of mediation. The language used in the mediation proceedings shall be English unless otherwise agreed.
+If any such dispute has not been settled within 45 days following the date on which the notice of mediation is provided, either You or the Licensor may, pursuant to a notice of arbitration communicated by reasonable means to the other, elect to have the dispute referred to and finally determined by arbitration. The arbitration shall be conducted in accordance with the rules designated by the Licensor in the copyright notice published with the Work, or if none then in accordance with the UNCITRAL Arbitration Rules as then in force. The arbitral tribunal shall consist of a sole arbitrator and the language of the proceedings shall be English unless otherwise agreed. The place of arbitration shall be where the Licensor has its headquarters. The arbitral proceedings shall be conducted remotely (e.g., via telephone conference or written submissions) whenever practicable
+Open Database License (ODbL)
+The Open Database License allows users to copy, modify and distribute data, including for commercial purposes. Users are obligated to give appropriate credit (attribution), and to provide any redistributions of data under the same license and in open formats. The World Bank distributes data under this license when required to do so by the original data provider or by the conditions of a data partnership.
+
+Microdata Research License
+Microdata are unit-level data obtained from sample surveys, censuses, and administrative systems, and are primarily managed through the World Bank’s Microdata Library. While a small percentage of microdata datasets are available under a Creative Commons license, and some are available under other licenses, most are distributed under the World Bank Microdata Research License, which is designed to protect the privacy of individuals that have provided data, and ensure that use conforms to the terms under which the data were originally collected.
+
+Conditions of the World Bank Microdata Research License are summarized as follows:
+
+Data and other material provided by the Microdata Library will be used solely by the user, and shall not be redistributed or sold without the Microdata Library's prior written agreement, and only subject to such conditions as may accompany such consent.
+The data will be used for statistical and scientific research purposes only. They will be used solely for generating, and perhaps reporting, aggregated information and not for investigations into specific individuals or organizations. No reverse engineering or "upstream research" into the sources of the data itself will be permitted.
+No attempt will be made to identify respondents or microdata providers, and no use will be made of the identity of any person, facility or establishment discovered inadvertently. Any such discovery would immediately be reported to the Microdata Library, to allow evaluation for further use, application of further statistical disclosure control methods, further restrictions on access, or appropriate reclassification of the data.
+No attempt will be made to create links between datasets provided by the Microdata Library, or between Microdata Library data and other datasets that could identify individuals or organizations.
+Any books, articles, conference papers, theses, dissertations, reports or other publications employing data obtained from the Microdata Library will cite the source, in line with the citation requirement provided with the dataset.
+The original collector of the data, the Microdata Library, and the relevant funding agencies bear no responsibility for any use of the data or for interpretations or inferences based upon such uses.
+In addition, the Microdata Library employs various access methods for its datasets. Datasets classified as “Direct access” may be downloaded immediately, while those classified as “Public use” require user registration. “Licensed” datasets require users to submit an application in order to access them. Please refer to the Microdata library for more information.
+
+License Specified Externally
+In some cases the World Bank provides metadata for datasets available externally from third-parties. Users should use the provided link to visit the external website, agree to the data license, and access the data if possible.
+
+Custom License
+In some cases the World Bank provides access to datasets from third parties according non-standard licenses. These datasets provide custom license information in the metadata section. Users signal their agreement to the terms of the license when they access or download the data.
+
+Data Not Available
+In some cases it is not possible to make data available, either because the data are too sensitive, or have been lost or damaged. However, users may still benefit from the available metadata for these datasets.
