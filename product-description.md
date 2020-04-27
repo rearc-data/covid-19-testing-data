@@ -5,7 +5,7 @@ The COVID Tracking Project collects information from 50 US states, the District 
 
 The data is collected from state/district/territory public health authorities or, occasionally, from trusted news reporting, official press conferences, or (very occasionally) tweets or Facebook updates from state public health authorities or governors.
 
-If you are interested in subscribing to this product on AWS Data Exchange, please click [here](https://aws.amazon.com/marketplace/pp/prodview-a2ev4blctqkwc?ref_=srh_res_product_title).
+If you are interested in exploring this product on GitHub, please click [here](https://github.com/rearc-data/covid-19-testing-data).
 
 #### Data Sources
 All datasets are in both CSV and JSON format:
