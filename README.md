@@ -1,3 +1,7 @@
+<a href="https://www.rearc.io/data/">
+    <img src="./rearc_logo_rgb.png" alt="Rearc Logo" title="Rearc Logo" height="52" />
+</a>
+
 # Coronavirus Disease (COVID-19) US Testing Data | The COVID Tracking Project
 
 # Main Description
