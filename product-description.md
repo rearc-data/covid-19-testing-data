@@ -1,6 +1,6 @@
 # Coronavirus Disease (COVID-19) US Testing Data | The COVID Tracking Project
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets) is avaiable at [https://github.com/rearc-data/covid-19-testing-data](https://github.com/rearc-data/covid-19-testing-data).
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is avaiable at [https://github.com/rearc-data/covid-19-testing-data](https://github.com/rearc-data/covid-19-testing-data).
 
 # Product Description
 The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data for the novel coronavirus, SARS-CoV-2. The dataset includes positive and negative results, pending tests, and total people tested for each state or district currently reporting that data.
