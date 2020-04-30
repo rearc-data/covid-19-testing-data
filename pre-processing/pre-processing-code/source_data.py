@@ -10,7 +10,6 @@ def source_dataset(s3_bucket, new_s3_key):
 		'states/current',
 		'states/daily',
 		'states/info',
-		'states',
 		'us/current',
 		'us/daily',
 		'counties',
@@ -26,6 +25,11 @@ def source_dataset(s3_bucket, new_s3_key):
 			source_dataset_url + filename + '.csv', '/tmp/' + filename.replace('/', '_') + '.csv')
 		urllib.request.urlretrieve(
 			source_dataset_url + filename + '.json', '/tmp/' + filename.replace('/', '_') + '.json')
+	
+	urllib.request.urlretrieve(
+		'https://covidtracking.com/api/states.csv', '/tmp/states.csv')
+	urllib.request.urlretrieve(
+		'https://covidtracking.com/api/states.json', '/tmp/states.json')
 
 	# uploading new s3 dataset
 	s3 = boto3.client('s3')
