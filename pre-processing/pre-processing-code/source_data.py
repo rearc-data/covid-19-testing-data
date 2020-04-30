@@ -10,9 +10,11 @@ def source_dataset(s3_bucket, new_s3_key):
 		'states/current',
 		'states/daily',
 		'states/info',
+		'states',
 		'us/current',
 		'us/daily',
 		'counties',
+		'cdc/daily',
 		'urls',
 		'states/screenshots',
 		'press'
