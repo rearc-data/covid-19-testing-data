@@ -13,17 +13,19 @@ The data is collected from state/district/territory public health authorities or
 
 #### Data Sources
 All datasets are in both CSV and JSON format:
-- States current testing data (`states-current`)
-- States historical testing data (`states-daily`)
-- States specific resources (`states-info`)
-- US current testing data (`us-current`)
-- US historical testing data (`us-daily`)
+- States current testing data (`states_current`)
+- States historical testing data (`states_daily`)
+- States specific resources (`states_info`)
+- US current testing data (`us_current`)
+- US historical testing data (`us_daily`)
 - COVID-19 related info from counties (`counties`)
 - Track URLs for regional specific data (`url`)
-- State website screenshots (`states-screenshots`)
+- State website screenshots (`states_screenshots`)
 - COVID Track Project press (`press`)
 
 For information about the specific columns in each dataset visit the [Data API Documentation](https://covidtracking.com/api) page on The COVID Tracking Project's website.
+
+- Please note: The COVID Tracking Project has depreciated the `states` and `us` endpoints of their API, and replaced each with `states_daily` and `us_daily`. For legacy subscribers we will continue to include the older version of these files with product.
 
 # More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  

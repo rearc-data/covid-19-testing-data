@@ -31,6 +31,11 @@ def source_dataset(s3_bucket, new_s3_key):
 	urllib.request.urlretrieve(
 		'https://covidtracking.com/api/states.json', '/tmp/states.json')
 
+	urllib.request.urlretrieve(
+		'https://covidtracking.com/api/us.csv', '/tmp/us.csv')
+	urllib.request.urlretrieve(
+		'https://covidtracking.com/api/us.json', '/tmp/us.json')
+
 	# uploading new s3 dataset
 	s3 = boto3.client('s3')
 	folder = "/tmp"
