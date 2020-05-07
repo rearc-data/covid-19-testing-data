@@ -21,20 +21,12 @@ def source_dataset(s3_bucket, new_s3_key):
 
 	# Download the file from `url` and save it locally:
 	for filename in api_filenames:
+		print(filename, 'csv')
 		urllib.request.urlretrieve(
 			source_dataset_url + filename + '.csv', '/tmp/' + filename.replace('/', '_') + '.csv')
+		print(filename, 'json')
 		urllib.request.urlretrieve(
 			source_dataset_url + filename + '.json', '/tmp/' + filename.replace('/', '_') + '.json')
-	
-	urllib.request.urlretrieve(
-		'https://covidtracking.com/api/states.csv', '/tmp/states.csv')
-	urllib.request.urlretrieve(
-		'https://covidtracking.com/api/states.json', '/tmp/states.json')
-
-	urllib.request.urlretrieve(
-		'https://covidtracking.com/api/us.csv', '/tmp/us.csv')
-	urllib.request.urlretrieve(
-		'https://covidtracking.com/api/us.json', '/tmp/us.json')
 
 	# uploading new s3 dataset
 	s3 = boto3.client('s3')

@@ -21,11 +21,7 @@ All datasets are in both CSV and JSON format:
 - State website screenshots (`states-screenshots`)
 - COVID Track Project press (`press`)
 
-Note: a `states` file is also included with this product, which is an older ve
-
 For information about the specific columns in each dataset visit the [Data API Documentation](https://covidtracking.com/api) page on The COVID Tracking Project's website.
-
-- Please note: The COVID Tracking Project has depreciated the `states` and `us` endpoints of their API, and replaced each with `states_daily` and `us_daily`. For legacy subscribers we will continue to include the older version of these files with this product.
 
 ## More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  
