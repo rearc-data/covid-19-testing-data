@@ -15,12 +15,10 @@ def data_to_s3(data):
 		response = urlopen(source_dataset_base + data)
 
 	except HTTPError as e:
-		print('HTTPError: ', e.code, data)
-		return False
+		raise Exception('HTTPError: ', e.code, data)
 
 	except URLError as e:
-		print('URLError: ', e.reason, data)
-		return False
+		raise Exception('URLError: ', e.reason, data)
 
 	else:
 		filename = data.replace('/', '_')
@@ -65,11 +63,6 @@ def source_dataset():
 	with (Pool(20)) as p:
 		asset_list = p.map(data_to_s3, [
 					   *map(lambda x: x + '.csv', api_endpoints), *map(lambda x: x + '.json', api_endpoints)])
-
-	# asset_list will only include false if there was a problem
-	# accessing one of the datasets used to form the asset_list
-	if False in asset_list:
-		return False
 
 	# asset_list is returned to be used in lamdba_handler function
 	return asset_list

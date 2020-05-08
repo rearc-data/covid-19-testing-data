@@ -71,7 +71,7 @@ def start_change_set(describe_entity_response, revision_arn):
 def lambda_handler(event, context):
 	asset_list = source_dataset()
 
-	if asset_list != False:
+	if type(asset_list) == list and len(asset_list > 0):
 
 		create_revision_response = dataexchange.create_revision(DataSetId=data_set_id)
 		revision_id = create_revision_response['Id']
@@ -141,7 +141,4 @@ def lambda_handler(event, context):
 			}
 
 	else:
-		return {
-            'statusCode': 500,
-            'body': json.dumps('S3 upload did not complete successfully')
-        }
+		raise Exception('Something went wrong when uploading files to s3')
