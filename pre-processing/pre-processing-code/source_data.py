@@ -6,7 +6,7 @@ from multiprocessing.dummy import Pool
 
 def data_to_s3(data):
 
-	# catching any issues if an error occured and returns `False`
+	# throws error occured if there was a problem accessing data
 	# otherwise downloads and uploads to s3
 
 	source_dataset_base = 'https://covidtracking.com/api/v1/'
