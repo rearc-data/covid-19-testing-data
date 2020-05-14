@@ -6,7 +6,7 @@
 
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-a2ev4blctqkwc](https://aws.amazon.com/marketplace/pp/prodview-a2ev4blctqkwc). 
 
-# Product Description
+## Main Overview
 The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data for the novel coronavirus, SARS-CoV-2. The dataset includes positive and negative results, pending tests, and total people tested for each state or district currently reporting that data.
 
 The data is collected from state/district/territory public health authorities or, occasionally, from trusted news reporting, official press conferences, or (very occasionally) tweets or Facebook updates from state public health authorities or governors.
@@ -25,7 +25,7 @@ All datasets are in both CSV and JSON format:
 
 For information about the specific columns in each dataset visit the [Data API Documentation](https://covidtracking.com/api) page on The COVID Tracking Project's website.
 
-# More Information
+## More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  
 - [Schema Definitions | Data API Documentation](https://covidtracking.com/api)
 - [Sample Data](https://covidtracking.com/data/)   
