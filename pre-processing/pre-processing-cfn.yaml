@@ -38,6 +38,7 @@ Resources:
       ManagedPolicyArns:
         - arn:aws:iam::aws:policy/AWSLambdaExecute
         - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/CloudWatchFullAccess
         - arn:aws:iam::796406704065:policy/AWSDataExchangeService
         - arn:aws:iam::aws:policy/AWSMarketplaceSellerFullAccess
       Path: /
@@ -62,7 +63,7 @@ Resources:
             - - Fn::Sub: ${DataSetName}
               - '/automation/pre-processing-code.zip'
       Handler: "lambda_function.lambda_handler"
-      MemorySize: 128
+      MemorySize: 256
       Timeout: 120
       Role:
         Fn::GetAtt:
