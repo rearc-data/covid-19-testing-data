@@ -19,8 +19,6 @@ def data_to_s3(data):
 
 		try:
 			response = urlopen(source_dataset_base + data)
-			break
-
 		except HTTPError as e:
 			if attempt == retries:
 				raise Exception('HTTPError: ', e.code, data)
@@ -30,6 +28,8 @@ def data_to_s3(data):
 			if attempt == retries:
 				raise Exception('URLError: ', e.reason, data)
 			time.sleep(0.2 * attempt)
+		else:
+			break
 
 	filename = data.replace('/', '_')
 	file_location = '/tmp/' + filename
