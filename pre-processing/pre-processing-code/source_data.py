@@ -12,6 +12,8 @@ def data_to_s3(data):
 
 	source_dataset_base = 'https://covidtracking.com/api/v1/'
 
+	response = None
+
 	retries = 5
 	for attempt in range(retries):
 
@@ -22,12 +24,12 @@ def data_to_s3(data):
 		except HTTPError as e:
 			if attempt == retries:
 				raise Exception('HTTPError: ', e.code, data)
-			time.sleep(0.2)
+			time.sleep(0.2 * attempt)
 
 		except URLError as e:
 			if attempt == retries:
 				raise Exception('URLError: ', e.reason, data)
-			time.sleep(0.2)
+			time.sleep(0.2 * attempt)
 
 	filename = data.replace('/', '_')
 	file_location = '/tmp/' + filename
