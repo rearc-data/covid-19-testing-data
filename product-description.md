@@ -11,17 +11,18 @@ If you are interested in exploring this product on GitHub, please click [here](h
 
 #### Data Sources
 All datasets are in both CSV and JSON format:
-- States current testing data (`states-current`)
-- States historical testing data (`states-daily`)
-- States specific resources (`states-info`)
-- US current testing data (`us-current`)
-- US historical testing data (`us-daily`)
-- COVID-19 related info from counties (`counties`)
-- Track URLs for regional specific data (`url`)
-- State website screenshots (`states-screenshots`)
-- COVID Track Project press (`press`)
+- States current testing data (`states_current`)
+- States historical testing data (`states_daily`)
+- States specific resources (`states_info`)
+- US current testing data (`us_current`)
+- US historical testing data (`us_daily`)
+- State website screenshots (`states_screenshots`)
 
 For information about the specific columns in each dataset visit the [Data API Documentation](https://covidtracking.com/api) page on The COVID Tracking Project's website.
+
+#### Changelog
+2020-6-4
+- The `countries`, `cdc/daily`, `urls` and `press` files have been removed from this product, as these datasets are no longer publicly accessible through the COVID Tracking Project's API.
 
 ## More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  

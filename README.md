@@ -18,12 +18,13 @@ All datasets are in both CSV and JSON format:
 - States specific resources (`states_info`)
 - US current testing data (`us_current`)
 - US historical testing data (`us_daily`)
-- COVID-19 related info from counties (`counties`)
-- Track URLs for regional specific data (`url`)
 - State website screenshots (`states_screenshots`)
-- COVID Track Project press (`press`)
 
 For information about the specific columns in each dataset visit the [Data API Documentation](https://covidtracking.com/api) page on The COVID Tracking Project's website.
+
+#### Changelog
+2020-6-4
+- The `countries`, `cdc/daily`, `urls` and `press` files have been removed from this product, as these datasets are no longer publicly accessible through the COVID Tracking Project's API.
 
 ## More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  
