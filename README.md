@@ -24,7 +24,7 @@ For information about the specific columns in each dataset visit the [Data API D
 
 #### Changelog
 2020-6-4
-- The `countries`, `cdc/daily`, `urls` and `press` files have been removed from this product, as these datasets are no longer publicly accessible through the COVID Tracking Project's API.
+- The `countries`, `cdc_daily`, `urls` and `press` files have been removed from this product, as these datasets are no longer publicly accessible through the COVID Tracking Project's API.
 
 ## More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  
