@@ -20,15 +20,15 @@ All datasets are in both CSV and JSON format:
 
 For information about the specific columns in each dataset visit the [Data API Documentation](https://covidtracking.com/api) page on The COVID Tracking Project's website.
 
-#### Changelog
-2020-6-4
-- The `countries`, `cdc_daily`, `urls` and `press` files have been removed from this product, as these datasets are no longer publicly accessible through the COVID Tracking Project's API.
+### Changelog
+#### 2020-6-4
+- The `countries`, `cdc_daily`, `urls` and `press` datasets have been removed from this product, as these data sources are no longer publicly accessible through the COVID Tracking Project's API.
 
 ## More Information
 - [Source | The COVID Tracking Project Hompage](https://covidtracking.com/)  
 - [Schema Definitions | Data API Documentation](https://covidtracking.com/api)
 - [Sample Data](https://covidtracking.com/data/)   
-- [Terms of Use | Please check "If I cite numbers from this site, how should I credit the source?"](https://covidtracking.com/about-tracker/)       
+- [Terms of Use](https://covidtracking.com/license)
 - Frequency: Every 2 hours
 - Formats: CSV, JSON
 
