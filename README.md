@@ -1,3 +1,7 @@
+### The source of this product, [Covid Tracking Project](https://covidtracking.com/)  has stopped providing data as of March 7, 2021 and as such, this product will have to end as well. The historical data revisions will be still available under this product but no additional revisions will be provided.
+
+### The Cloudformation stack of this product is deleted since no additional product updates are expected.
+
 <a href="https://www.rearc.io/data/">
     <img src="./rearc_logo_rgb.png" alt="Rearc Logo" title="Rearc Logo" height="52" />
 </a>
